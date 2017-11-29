@@ -3,10 +3,10 @@
 echo -e "Enter file name : \c"
 read file_name
 
-if [ -d $file_name ]
+if [ -d $file_name ] # check if the directory exist
 then 
-    echo "$file_name is found"
+    echo "directory $file_name is found"
 
 else
-    echo "$file_name not found"
+    echo "directory $file_name is not found"
 fi
